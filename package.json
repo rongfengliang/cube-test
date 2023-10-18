@@ -1,0 +1,20 @@
+{
+  "name": "demo-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "template": "express",
+  "templateVersion": "0.34.5",
+  "dependencies": {
+    "@cubejs-backend/oracle-driver": "^0.34.1",
+    "@cubejs-backend/server": "^0.34.5",
+    "oracledb": "6.2.0"
+  },
+  "overrides": {
+    "@cubejs-backend/oracle-driver":{
+      "oracledb":"^6.2.0"
+    }
+  }
+}
