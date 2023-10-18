@@ -1,7 +1,6 @@
 version: "3"
 services:
     app:
-       build: ./
        image: dalongrong/cube-test:oracle
        env_file:
        - ./.env
