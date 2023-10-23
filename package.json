@@ -13,6 +13,9 @@
     "@cubejs-backend/server": "^0.34.5",
     "oracledb": "6.2.0"
   },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.0"
+  },
   "overrides": {
     "@cubejs-backend/oracle-driver":{
       "oracledb":"^6.2.0"
